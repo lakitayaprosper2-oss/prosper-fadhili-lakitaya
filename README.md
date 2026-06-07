@@ -1,58 +1,66 @@
+#  Hospital Patient Records System
 
+## Overview
 
- Overview
-This is a simple static website built using HTML, CSS, and JavaScript.  
-It is designed for learning basic web development concepts without using any backend language like PHP.
+This is a simple front-end hospital management system built with:
 
+- HTML
+- CSS
+- JavaScript
 
- Functionality of the Website
-1. Page Structure (HTML)
-The website contains:
-- A main heading
-- A short description paragraph
-- A clickable button
-- A message display area
-- An information box
+The system allows hospital staff to:
 
-All elements are arranged inside a centered container.
+- Register new patients
+- View patient records
+- Search patients by name
+- Delete patient records
+- View total patient count
 
+## Features
 
-2. Styling (CSS)
-The CSS controls the visual appearance:
-- The background is plain white
-- Content is centered on the page
-- Clean and simple font is used
-- Button has hover effects
-- Message text appears in green when triggered
+### Patient Registration
+Users can enter:
 
-The design focuses on simplicity and readability.
+- Patient Name
+- Age
+- Gender
+- Diagnosis
 
+### Patient Records Table
 
-3. Interactivity (JavaScript)
-The website includes a button interaction:
+Displays:
 
-- When the user clicks the button
-- A JavaScript function runs
-- A message appears:
-  > "Hello! You clicked the button successfully."
+- ID
+- Name
+- Age
+- Gender
+- Diagnosis
 
-This shows basic DOM manipulation.
+### Search Function
 
+Search patients by name.
 
-How It Works
-1. The browser loads `index.html`
-2. CSS styles the page
-3. JavaScript adds interactivity
-4. User clicks button → message appears instantly
+### Delete Records
 
+Remove patient records from the system.
 
-Purpose
-This project is made for beginners to understand:
-- Basic HTML structure
-- CSS styling
-- JavaScript interactivity
-- How a simple website works
+### Statistics
 
+Shows total number of patients currently registered.
 
-## 👨‍💻 Result
-A clean, simple, fully working static website that runs on any browser and can be hosted on GitHub Pages.
+## Notes
+
+- Data is stored in browser memory only.
+- Refreshing the page will clear all records.
+- No database is included.
+- Intended for educational and demonstration purposes.
+
+## Future Improvements
+
+- Local Storage support
+- Appointment scheduling
+- Doctor management
+- Patient history
+- PDF report generation
+- Database integration
+- Login system
